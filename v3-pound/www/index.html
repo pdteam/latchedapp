@@ -13,6 +13,17 @@
 	<link rel="stylesheet" type="text/css" href="css/fullpage/jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="css/fullpage/examples.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="css/zerogrid.css">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/swiper.min.css" rel="stylesheet">
+    <link href="css/loader.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/styleblue.css" rel="stylesheet">
 
 	<style>
 
@@ -113,6 +124,16 @@
    		z-index:3;
 	}
 
+		#video{
+		position: relative;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 30%;
+		height: 30%;
+	}
+
 
 
 	/* Layer with position absolute in order to have it over the video
@@ -172,14 +193,17 @@
 	<script type="text/javascript" src="js/fullpage/jquery.fullPage.js"></script>
 	<script type="text/javascript" src="js/fullpage/examples.js"></script>
 
+	<script src="js/script.js"></script>
+
+
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
-				anchors: ['firstPage', 'secondPage', '3rdPage'],
-				sectionsColor: ['#C63D0F', '#1BBC9B', '#7E8F7C', '#1BBC9B'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+				sectionsColor: ['#C63D0F', '#1BBC9B', '#347B98', '##90AD7B'],
 				css3: true,
 				scrollOverflow: true
 			});
@@ -188,6 +212,7 @@
 
 </head>
 <body>
+
 <!--
 <select id="demosMenu">
   <option selected>Choose Demo</option>
@@ -240,11 +265,82 @@
 
 <div id="fullpage">
 
+
 <!-- This is the main section for the video -->
 	<div class="section " id="section0">
 		<video id="myVideo" loop muted data-autoplay>
 			<source src="img/fullpage/breast.mp4" type="video/mp4">
 		</video>
+
+
+<section id="home">
+    <nav class="navbar navbar-fixed-top green">
+        <div class="container-fluid">
+            <!--second nav button -->
+            <div id="menu_bars" class="right">
+                <span class="t1"></span>
+                <span class="t2"></span>
+                <span class="t3"></span>
+            </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+
+
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-ex1-collapse  ">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#firstPage" class="scroll"></a></li>
+                        <li><a href="#secondPage" class="scroll"></a></li>
+                        <li><a href="#3rdPage" class="scroll"></a></li>
+                        <li><a href="#4thPage" class="scroll"></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>
+            <div class="sidebar_menu">
+                <nav class="pushmenu pushmenu-right">
+                    <a class="push-logo" href="#"><img src="img/logo.png" alt="logo"></a>
+                    <ul class="push_nav centered">
+                        <li class="clearfix">
+                            <a href="#firstPage"  class="scroll" ><span>01.</span>Home</a>
+
+                        </li>
+                        <li class="clearfix">
+                            <a href="#secondPage" class="scroll"> <span>02.</span>Sore Nipples</a>
+
+                        </li>
+                        <li class="clearfix">
+                            <a href="#3rdPage" class="scroll"> <span>03.</span>Poor Weight Gain</a>
+
+                        </li>
+                        <li class="clearfix">
+                            <a href="#4thPage" class="scroll"> <span>04.</span>Maternal Confidence</a>
+                    </ul>
+                    <div class="clearfix"></div>
+                    <ul class="social_icon black top25 bottom20 list-inline">
+
+                            <li><a href="#"><i class="fa fa-fw fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fa fa-fw fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa fa-fw fa fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </nav>
+
+    <!--video-->
+    <!--video-->
+   <!-- slider start -->
+    <!-- slider start -->
+    <!-- slider end -->
+   <!-- slider end -->
+</section>
+
+
 		<div class="layer">
 			<h1>Latched</h1>
 			<h2>Breastfeeding App (Demo)</h2>
@@ -271,26 +367,29 @@
 		  <div class="col-md-offset-1 col-md-5 " style = "padding:20px;margin-left:20px;margin-right:20px;">
 			<h2>Characteristics of a Good Latch</h2>
 
-			<div style = "text-align:left"><br/>
+			<div style = "text-align:justify; margin-left:30px; margin-right:30px;"><br/>
+				<font size = +2>
 				The latch is a key component of the breastfeeding relationship<br/>
 				A latch is often a common denominator for many breastfeeding problems<br/>
 				A poor latch must be corrected as soon as possible.<br/>
 				If the mother has no pain, the baby is thriving and the milk is being transferred appropriately, there is no point in fixing a latch that looks bad.  This may decrease the mother’s confidence in her breastfeeding skills and increase the risk of breastfeeding failure.<br/>
 				Only address a poor latch if it results in problems.<br/><br/>
-			
+				</font>
 			</div>
-			<img style = "width:100%" src = "img/goodlatch.png"/>
+			<img style = "width:80%"  src = "img/goodlatch.png"/>
 			
 		  </div>
 		  <div class="col-md-5 offset-md-1" style = "padding:20px;margin-left:20px;margin-right:20px;">
 			<h2>Treating the Latch</h2>
 		  
-			<div style = "text-align:left"><br/>
-				The latch is a key component of the breastfeeding relationship<br/>
-				A latch is often a common denominator for many breastfeeding problems<br/>
+			<div style = "text-align:justify; margin-left:30px; margin-right:30px;"><br/>
+				<font size = +2>
+				The latch is a key component of the breastfeeding relationship.
+				A latch is often a common denominator for many breastfeeding problems.
 				A poor latch must be corrected as soon as possible.<br/>
 				If the mother has no pain, the baby is thriving and the milk is being transferred appropriately, there is no point in fixing a latch that looks bad.  This may decrease the mother’s confidence in her breastfeeding skills and increase the risk of breastfeeding failure.<br/>
 				Only address a poor latch if it results in problems.<br/>
+				</font>
 			</div>
 		  
 			</div>
@@ -300,20 +399,20 @@
 
 
 		<div class="row">
-		  <div class="col-md-12" style = "color:white;height:50px">
-		  <h1>Vasospasm</h1><br/><br/><br/>
+		  <div class="col-md-12">
+		  <h1>Vasospasm</h1>
 		  </div>
 		</div>
 
-		<div>
-			<p><br/>There may be vasospam of the nipple in cases of contact dermatitis, bacterial infections, or candidal infections of the nipple.<br/>Consider a candidal infection if the baby has thrush<br/>Here is a picture of vasospasm of the nipple<br/></p>
+		<div class="col-md-3 col-md-offset-3" style ="text-align:justify; margin-left:30px; margin-right:30px;">
+			<p><font size= +2><br/>There may be vasospam of the nipple in cases of contact dermatitis, bacterial infections, or candidal infections of the nipple. Consider a candidal infection if the baby has thrush<br/><br/>Here is a picture of vasospasm of the nipple<br/></font></p><br/>
 		</div>
-		<div>
-			replace image with the right one later
-			<img style = "width:100%" src = "img/goodlatch.png"/>
+		<div class="col-md-3 col-md-offset-3">
+			
+			<img style = "width:90%" src = "img/vasospasm.png"/><br/><br/>
 		</div>
-		<div>
-			<p>Treat the underlying cause<br/> To treat a candida infection, it is important to treat both the baby and the mother.<br/>Treat the mother with the following combination (all-purpose nipple ointment) Mupirocin 2% ointment (15 g), betamethasone 0.1% ointment (15 g), add miconazole so that final concentration is 2% miconazole.  +/- ibuprofen 2% <br/> Treat the baby with a local antifungal agent or oral fluconazole</p>
+		<div class="col-md-3 col-md-offset-3" style = "text-align:justify; margin-left:30px; margin-right:30px;">
+			<font size = +2> <h3>Treat the underlying cause:</h3><br/> To treat a candida infection, it is important to treat both the baby and the mother.<br/>Treat the mother with the following combination (all-purpose nipple ointment) Mupirocin 2% ointment (15 g), betamethasone 0.1% ointment (15 g), add miconazole so that final concentration is 2% miconazole.  +/- ibuprofen 2% <br/> Treat the baby with a local antifungal agent or oral fluconazole</font>
 
 		</div>
 		
@@ -322,21 +421,29 @@
 
 		<div class="row">
 		  <div class="col-md-12" style = "color:white;height:50px">
-		  <h1>Tongue Tie</h1><br/><br/><br/>
+		  	<div class="col-xs-12 col-md-8">
+		  <h1>Tongue Tie</h1>
 		  </div>
 		</div>
+		</div>
 
-		<div>
-			<p><br/>Babies with ankyloglossia (tongue ties) can present early if the tongue is severe, but can also present later (around 6 to 8 weeks of age).  Mothers with abundant milk supply and rapid let-down can compensate for a poor latch in the first few weeks. As the prolactin levels decline after the first 10 postpartum days, mothers’ milk supply start to reflect the supply and demand balance more accurately and will decrease if the latch is poor / there is poor milk removal from the breast, which may be caused by a tongue tie. <br/>If a baby has a tongue tie, he or she may not be able to extend the tongue past the gum line. If the baby cannot touch the roof of the mouth with his / her tongue, suspect a tongue tie. <br/></p>
+		<div class="col-md-6 col-md-offset-3" style ="text-align:justify; margin-left:40px; margin-right:40px;">
+			<font size= +2>Babies with ankyloglossia (tongue ties) can present early if the tongue is severe, but can also present later (around 6 to 8 weeks of age).  Mothers with abundant milk supply and rapid let-down can compensate for a poor latch in the first few weeks. As the prolactin levels decline after the first 10 postpartum days, mothers’ milk supply start to reflect the supply and demand balance more accurately and will decrease if the latch is poor / there is poor milk removal from the breast, which may be caused by a tongue tie. <br/><br/>If a baby has a tongue tie, he or she may not be able to extend the tongue past the gum line. If the baby cannot touch the roof of the mouth with his / her tongue, suspect a tongue tie. <br/><br/></font>
 			<h2>Symptoms of Tongue Tie</h2>
-			<ul><li>Slow weight gain</li><li>Uncomfortable and gassy baby</li><li>Gulping air while feeding</li><li>Trauma to maternal nipples</li></ul></p>
-
+			<font size= +2>
+			<ul><li>1)  Slow weight gain</li><li>2)  Uncomfortable and gassy baby</li><li>3)  Gulping air while feeding</li><li>4)  Trauma to maternal nipples</li></ul></p><br/>
+			</font>
+			
 			<h2>Examples of Tongue Tie</h2>
-			<p>Lingual frenulum appears short, the tongue does not raise much centrally when crying, it extends just over the gums but not the lips. The middle of the tongue does not raise as much as expected when swallowing.</p>
-			<p>The Hazelbaker Assessment for Lingual Frenulum Function evaluates the appearance of the tongue when lifted, the elasticity, length, and attachment locations of the frenulum. It also assesses the function of the tongue in regards to lateralization, lift, extension, cupping, peristalsis, and snapback.</p>
+			<font size= +2>
+			Lingual frenulum appears short, the tongue does not raise much centrally when crying, it extends just over the gums but not the lips. The middle of the tongue does not raise as much as expected when swallowing.<br/>
+			The Hazelbaker Assessment for Lingual Frenulum Function evaluates the appearance of the tongue when lifted, the elasticity, length, and attachment locations of the frenulum. It also assesses the function of the tongue in regards to lateralization, lift, extension, cupping, peristalsis, and snapback.<br/><br/>
+			</font>
 			<div>
 				<h2>Treatment of Tongue Tie</h2>
-				<p>Tongue ties (ankyloglossia) should be clipped if they interfere with breastfeeding. A frenotomy is recommended and can be done by a dentist or a physician with experience in the procedure <br/> Referral to a lactation consultant is highly recommended to help with the breastfeeding relationship before and after the frenotomy<br/>Provide the mother with a list of breastfeeding clinics and other community resources.<br/></p>
+				<font size= +2>
+				Tongue ties (ankyloglossia) should be clipped if they interfere with breastfeeding. A frenotomy is recommended and can be done by a dentist or a physician with experience in the procedure <br/> Referral to a lactation consultant is highly recommended to help with the breastfeeding relationship before and after the frenotomy<br/>Provide the mother with a list of breastfeeding clinics and other community resources.<br/><br/>
+				</font>
 			</div>
 		</div>
 
@@ -345,7 +452,6 @@
 	</div>
 		</div>
 	</div>
-	
 	
 	
 	<!--
@@ -376,26 +482,32 @@
 	<div class="section" id="section2">
 	    <div class="slide" id="slide5"><h1>Poor Weight Gain</h1></div>
 
-	    <div class="slide" id="slide6"><h1>Poor Latch Technique</h1>
-	    	<p style="margin-left:30px; margin-right:30px; text-align:justify;"><br/>Babies should not be given a schedule. For instance, telling a mother to feed her infant every 3 hours for 15 minutes on each breast can lead to problems.</p>
+	    <div class="slide" id="slide6"><h1>Poor Milk Transfer</h1>
+	    	<p style="margin-left:50px; margin-right:50px; text-align:justify;">
+	    		<font size = +3>
+	    		<br/>It is important to realize that a baby suckling at the breast is not necessarily transferring milk effectively and / or swallowing.<br/>After lactogenesis II (when the milk is “in”), a soft swallowing sound is heard, indicating that the baby is transferring milk. The sound it makes is that of a soft “caw”.
+	    		</font>
+	    	</p>
+
+	    		<video id="video" src="img/fullpage/milk3.mp4" controls></video>
+				<video id="video" src="img/fullpage/milk4.mp4" controls></video>
+				<video id="video" src="img/fullpage/milk5.mp4" controls></video>
+
+	    	<h2>Treatment of Poor Milk Transfer<br/><br/></h2>
+	    	<p style="margin-left:50px; margin-right:50px; text-align:justify;">
+	    		<font size = +3>In the case of poor milk transfer, suspect poor latch and / or insufficient milk supply<br/>The use of breast compression while baby is breastfeeding will also promote milk transfer to baby.<br/>Provide the mother with a list of breastfeeding clinics and other community resources</font></p>
 	    </div>
 
-	    <div class="slide" id="slide7"><h1>Poor Milk Transfer</h1>
-	    	<p style="margin-left:30px; margin-right:30px; text-align:justify;"><br/>It is important to realize that a baby suckling at the breast is not necessarily transferring milk effectively and / or swallowing.<br/>After lactogenesis II (when the milk is “in”), a soft swallowing sound is heard, indicating that the baby is transferring milk. The sound it makes is that of a soft “caw”.<br/><br/> LINK TO VIDEO SAMPLES OF GOOD MILK TRANSFER</p>
-	    	<h2>Treatment of Poor Milk Transfer</h2>
-	    	<p style="margin-left:30px; margin-right:30px; text-align:justify;"><br/>In the case of poor milk transfer, suspect poor latch and / or insufficient milk supply<br/>The use of breast compression while baby is breastfeeding will also promote milk transfer to baby.<br/>Provide the mother with a list of breastfeeding clinics and other community resources</p>
-	    </div>
-
-	    <div class="slide" id="slide8"><h1>Scheduled Feedings</h1>
-	    	<p style="margin-left:30px; margin-right:30px; text-align:justify;"><br/>Babies should not be given a schedule. For instance, telling a mother to feed her infant every 3 hours for 15 minutes on each breast can lead to problems.<br/>In a baby who is growing well, scheduled feedings are never indicated.  It is important to follow the baby’s cues.  A minimum number of 8 feedings per 24 hours is essential in the first two weeks, but feeding can be liberalized afterwards.</p>
+	    <div class="slide" id="slide7"><h1>Scheduled Feedings</h1>
+	    	<p style="margin-left:50px; margin-right:50px; text-align:justify;"><font size = +3><br/>Babies should not be given a schedule. For instance, telling a mother to feed her infant every 3 hours for 15 minutes on each breast can lead to problems.<br/>In a baby who is growing well, scheduled feedings are never indicated.  It is important to follow the baby’s cues.  A minimum number of 8 feedings per 24 hours is essential in the first two weeks, but feeding can be liberalized afterwards.</font></p><br/><br/><br/>
 	    	<h2>Treatment of Scheduled Feedings</h2>
-	    	<p style="margin-left:30px; margin-right:30px; text-align:justify;"><br/>Mothers should feed their baby on demand, and empty the first breast that the baby is taking, before switching onto the second breast<br/>Breast compression may help with emptying the breast.<br/>Provide the mother with a list of breastfeeding clinics and other community resources<br/></p>
+	    	<p style="margin-left:50px; margin-right:50px; text-align:justify;"><font size = +3><br/><br/>Mothers should feed their baby on demand, and empty the first breast that the baby is taking, before switching onto the second breast<br/>Breast compression may help with emptying the breast.<br/>Provide the mother with a list of breastfeeding clinics and other community resources<br/></font></p>
 	    </div>
 	    
-	    <div class="slide" id="slide9"><h1>Insufficient Milk Supply</h1>
-	    	<p style="margin-left:40px; margin-right:40px; text-align:justify;"><br/>Risk factors for delayed lactogenesis / low milk supply include polycystic ovarian syndrome, gestational diabetes, previous breast surgery.<br/>Signs of insufficient milk supply include poor weight gain, poor milk transfer, low urine / stool output</p>
+	    <div class="slide" id="slide8"><h1>Insufficient Milk Supply</h1>
+	    	<p style="margin-left:40px; margin-right:40px; text-align:justify;"><font size = +3><br/>Risk factors for delayed lactogenesis / low milk supply include polycystic ovarian syndrome, gestational diabetes, previous breast surgery.<br/>Signs of insufficient milk supply include poor weight gain, poor milk transfer, low urine / stool output</font></p><br/>
 	    	<h2>Treating Low Milk Supply</h2>
-	    	<p style="margin-left:40px; margin-right:40px; text-align:justify;"><br/>If milk supply is deemed to be insufficient, the following steps can be followed<br/>
+	    	<p style="margin-left:40px; margin-right:40px; text-align:justify;"><font size = +3><br/>If milk supply is deemed to be insufficient, the following steps can be followed<br/>
 	    			1) Ensure the baby is offered the breast at least every 3 hours<br/>
 	    			2) Keep baby undressed and skin to skin for feedings<br/>
 	    			3) The mother should offer both breasts at each feeding, switching sides frequently as soon as the baby appears sleepy.  The use of breast compression while baby is breastfeeding will promote milk transfer to the baby<br/>
@@ -403,30 +515,38 @@
 	    			5) Recommend doing hand expression then pumping for 15 minutes after every feed to increase stimulation to breast, and increase milk supply<br/>
 	    			6) Provide the mother with a list of breastfeeding clinics and other community resources<br/>
 	    		
-	    	</p>
+	    	</font></p>
 	    </div>
 	</div>
 
 	<div class="section" id="section3">
-		<div class="slide" id="slide5"><h1>Maternal Confidence</h1></div>
-
-
-		<div class="slide" id="slide6"><h1>Poor Weight Gain</h1></div>
+		<div class="slide" id="slide9"><h1>Maternal Confidence</h1></div>
 
 		<div class="slide" id="slide6"><h1>Lack of Knowledge</h1>
-			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><br/>Mothers may worry about breastfeeding even when breastfeeding is going well.  A lack of knowledge with regards to normal feeding pattern may result in inappropriate concerns.<br/>
+			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><font size = +3><br/>Mothers may worry about breastfeeding even when breastfeeding is going well.  A lack of knowledge with regards to normal feeding pattern may result in inappropriate concerns.<br/>
 					Frequent feedings are normal, especially in the evening<br/>If the baby is growing, he / she will be going to the breast more often to increase milk supply to satisfy his / her increasing needs.  This is normal and access to the breast should not be limited, as this is the only way the baby can increase milk supply<br/>If feedings take less than 45 minutes in duration, and the baby is growing well, and all other aspects of breastfeeding are going well, it may be appropriate to reassure her with regards to normal feeding patterns.<br/>Encourage the mother’s partner / support person to get involved by changing the baby, or brining the baby to the mother<br/>Remember to assess mothers for post-partum depression, especially if she seems more tired than would be expected.<br/>
-			</p>
+			</font></p>
 		</div>
 
-		<div class="slide" id="slide6"><h1>Mother does not Feel her Let-down</h1>
-			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><br/>This is often not a problem. Up to 85% of women do not feel their let-down reflex. Asking mothers whether they feel their let-down reflex may actually be detrimental to their confidence as it suggests that there is a problem if they don’t. Most women do not feel the let-down reflex.</p>
+		<div class="slide" id="slide11"><h1>Mother does not Feel her Let-down</h1>
+			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><font size = +4><br/>This is often not a problem. Up to 85% of women do not feel their let-down reflex. Asking mothers whether they feel their let-down reflex may actually be detrimental to their confidence as it suggests that there is a problem if they don’t. Most women do not feel the let-down reflex.</font></p>
 		</div>
-		<div class="slide" id="slide6"><h1>Mother's Breast Don't Feel Full</h1>
-			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><br/>This may not be problem. <br/>Many women do not feel that their breasts are full at the beginning of a feed, and they may not feel that their breasts are empty at the end of a feed<br/>Asking mothers whether they feel that their breasts are full or empty may actually be detrimental to their confidence as it suggests that there is a problem if they don’t.<br/></p>
+		<div class="row">
+		<div class="slide" id="slide12"><h1>Mother's Breast Don't Feel Full</h1>
+			<div>
+			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><font size = +3><br/>This may not be problem. Many women do not feel that their breasts are full at the beginning of a feed, and they may not feel that their breasts are empty at the end of a feed<br/>Asking mothers whether they feel that their breasts are full or empty may actually be detrimental to their confidence as it suggests that there is a problem if they don’t.<br/><br/></font></p>
+			</div>
+			<div>
+				<video id="video" src="img/fullpage/milk.mp4" controls></video>
+				<video id="video" src="img/fullpage/milk1.mp4" controls></video>
+				<video id="video" src="img/fullpage/milk2.mp4" controls></video>
+			</div>
+		</div>
 
-		<div class="slide" id="slide6"><h1>The Baby is Fussy</h1>
-			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><br/>There are many reasons for a baby to be fussy. Ensure the baby is gaining weight well, the milk transfer is adequate, and that the mother has no nipple pain while breastfeeding. <br/> Other causes related to breastfeeding:<br/> 1) Scheduled feedings <br/> 2) ankyloglossia <br/> Consider other causes unrelated to breastfeeding</p>
+
+
+		<div class="slide" id="slide13"><h1>The Baby is Fussy</h1>
+			<p style="margin-left:40px; margin-right:40px; text-align:justify;" ><font size = +4><br/>There are many reasons for a baby to be fussy. Ensure the baby is gaining weight well, the milk transfer is adequate, and that the mother has no nipple pain while breastfeeding. <br/> Other causes related to breastfeeding:<br/><br/> 1) Scheduled feedings <br/> 2) Ankyloglossia: Consider other causes unrelated to breastfeeding</font></p>
 		</div>
 
 	</div>
